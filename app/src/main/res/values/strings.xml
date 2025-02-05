@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">XMLLatihan</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="profile"> Profil</string>
+    <string name="notification"> Notifikasi</string>
+    <string name="history"> Riwayat</string>
+    <string name="privacy"> Keamanan</string>
+    <string name="devices"> Perangkat</string>
+    <string name="customer_service"> Customer Service</string>
+    <string name="about"> About</string>
+
 </resources>

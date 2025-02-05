@@ -31,7 +31,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Notification"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
