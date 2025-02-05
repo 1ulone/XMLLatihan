@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpashScreen3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6B76FF"
+        android:gravity="bottom|center"
+        android:orientation="vertical"
+        app:layout_constraintCircleRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Tic"
+                android:textColor="#FBFAFA"
+                android:textSize="48sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Train"
+                android:textColor="#FBFAFA"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            app:srcCompat="@drawable/train2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:fontFamily="monospace"
+            android:text="Select Your Language"
+            android:textColor="#FBFBFB"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/arab"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="INDONESIA"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="ENGLISH"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/arab"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:gravity="center"
+                android:text="العربية"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:gravity="center"
+                android:text="한국어"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/arab"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:gravity="center"
+                android:text="française"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/english"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="#A5AEFF"
+                android:gravity="center"
+                android:text="日本語"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="350dp"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="411dp"
+                android:layout_height="275dp"
+                app:srcCompat="@drawable/person" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
